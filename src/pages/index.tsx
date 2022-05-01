@@ -3,6 +3,8 @@ import Head from 'next/head'
 import HeaderBanner from '../components/Elements/HeaderBanner';
 import Header from '../components/Elements/Header';
 import HeroSection from '../components/Elements/HeroSection';
+import FeatureSection from '../components/Elements/FeatureSection';
+import CtaSection from '../components/Elements/CtaSection';
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +19,10 @@ const Home: NextPage = () => {
       <HeaderBanner />
       <br />
       <HeroSection />
+      <br />
+      <FeatureSection />
+      <br />
+      <CtaSection />
     </>
   );
 }
