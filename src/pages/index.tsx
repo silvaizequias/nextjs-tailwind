@@ -5,6 +5,7 @@ import Header from '../components/Elements/Header';
 import HeroSection from '../components/Elements/HeroSection';
 import FeatureSection from '../components/Elements/FeatureSection';
 import CtaSection from '../components/Elements/CtaSection';
+import StackedLayout from '../components/Elements/StackedLayout';
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,8 @@ const Home: NextPage = () => {
       <FeatureSection />
       <br />
       <CtaSection />
+      <br />
+      <StackedLayout />
     </>
   );
 }
