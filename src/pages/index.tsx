@@ -12,6 +12,8 @@ import FormLayout from '../components/Forms/FormLayout';
 import InputGroup from '../components/Forms/InputGroup';
 import SelectMenu from '../components/Forms/SelectMenu';
 import SignInAndRegistration from '../components/Forms/SignInAndRegistration';
+import Navbar from '../components/Navigation/Navbar';
+import Pagination from '../components/Navigation/Pagination';
 
 const Home: NextPage = () => {
   return (
@@ -44,6 +46,10 @@ const Home: NextPage = () => {
       <SelectMenu />
       <br />
       <SignInAndRegistration />
+      <br />
+      <Navbar />
+      <br />
+      <Pagination />
     </>
   );
 }
