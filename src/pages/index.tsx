@@ -18,6 +18,7 @@ import Modal from '../components/Overlays/Modal';
 import SlideOver from '../components/Overlays/SlideOver';
 import Avatar from '../components/Elements/Avatar';
 import Dropdown from '../components/Elements/Dropdown';
+import PromoSection from '../components/PageSections/PromoSection';
 
 const Home: NextPage = () => {
   return (
@@ -62,6 +63,8 @@ const Home: NextPage = () => {
       <Avatar />
       <br />
       <Dropdown />
+      <br />
+      <PromoSection />
     </>
   );
 }
