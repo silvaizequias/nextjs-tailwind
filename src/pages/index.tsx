@@ -6,6 +6,7 @@ import HeroSection from '../components/Elements/HeroSection';
 import FeatureSection from '../components/Elements/FeatureSection';
 import CtaSection from '../components/Elements/CtaSection';
 import StackedLayout from '../components/Elements/StackedLayout';
+import PageHeading from '../components/Elements/PageHeading';
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +27,8 @@ const Home: NextPage = () => {
       <CtaSection />
       <br />
       <StackedLayout />
+      <br />
+      <PageHeading />
     </>
   );
 }
