@@ -19,6 +19,7 @@ import SlideOver from '../components/Overlays/SlideOver';
 import Avatar from '../components/Elements/Avatar';
 import Dropdown from '../components/Elements/Dropdown';
 import PromoSection from '../components/PageSections/PromoSection';
+import StoreNavigation from '../components/Navigation/StoreNavigation';
 
 const Home: NextPage = () => {
   return (
@@ -65,6 +66,8 @@ const Home: NextPage = () => {
       <Dropdown />
       <br />
       <PromoSection />
+      <br />
+      <StoreNavigation />
     </>
   );
 }
