@@ -7,6 +7,7 @@ import FeatureSection from '../components/Elements/FeatureSection';
 import CtaSection from '../components/Elements/CtaSection';
 import StackedLayout from '../components/Elements/StackedLayout';
 import PageHeading from '../components/Elements/PageHeading';
+import DescriptionList from '../components/Elements/DescriptionList';
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +30,8 @@ const Home: NextPage = () => {
       <StackedLayout />
       <br />
       <PageHeading />
+      <br />
+      <DescriptionList />
     </>
   );
 }
