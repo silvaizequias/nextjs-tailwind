@@ -14,6 +14,8 @@ import SelectMenu from '../components/Forms/SelectMenu';
 import SignInAndRegistration from '../components/Forms/SignInAndRegistration';
 import Navbar from '../components/Navigation/Navbar';
 import Pagination from '../components/Navigation/Pagination';
+import Modal from '../components/Overlays/Modal';
+import SlideOver from '../components/Overlays/SlideOver';
 
 const Home: NextPage = () => {
   return (
@@ -50,6 +52,10 @@ const Home: NextPage = () => {
       <Navbar />
       <br />
       <Pagination />
+      <br />
+      <Modal />
+      <br />
+      <SlideOver />
     </>
   );
 }
