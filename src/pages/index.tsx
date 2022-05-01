@@ -16,6 +16,8 @@ import Navbar from '../components/Navigation/Navbar';
 import Pagination from '../components/Navigation/Pagination';
 import Modal from '../components/Overlays/Modal';
 import SlideOver from '../components/Overlays/SlideOver';
+import Avatar from '../components/Elements/Avatar';
+import Dropdown from '../components/Elements/Dropdown';
 
 const Home: NextPage = () => {
   return (
@@ -56,6 +58,10 @@ const Home: NextPage = () => {
       <Modal />
       <br />
       <SlideOver />
+      <br />
+      <Avatar />
+      <br />
+      <Dropdown />
     </>
   );
 }
