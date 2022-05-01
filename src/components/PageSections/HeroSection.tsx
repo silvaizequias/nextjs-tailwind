@@ -39,6 +39,7 @@ export default function HeroSection() {
                       <Image
                         className="h-8 w-auto sm:h-10"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        alt=""
                         width={32}
                         height={32}
                       />

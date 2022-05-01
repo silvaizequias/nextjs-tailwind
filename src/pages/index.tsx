@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import HeaderBanner from '../components/Elements/HeaderBanner';
+import Banner from '../components/Elements/Banner';
 import Header from '../components/Elements/Header';
-import HeroSection from '../components/Elements/HeroSection';
-import FeatureSection from '../components/Elements/FeatureSection';
-import CtaSection from '../components/Elements/CtaSection';
-import StackedLayout from '../components/Elements/StackedLayout';
-import PageHeading from '../components/Elements/PageHeading';
-import DescriptionList from '../components/Elements/DescriptionList';
+import HeroSection from '../components/PageSections/HeroSection';
+import FeatureSection from '../components/PageSections/FeatureSection';
+import CtaSection from '../components/PageSections/CtaSection';
+import StackedLayout from '../components/ApplicationShells/StackedLayout';
+import PageHeading from '../components/Headings/PageHeading';
+import DescriptionList from '../components/DataDisplay/DescriptionList';
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <br />
-      <HeaderBanner />
+      <Banner />
       <br />
       <HeroSection />
       <br />
