@@ -8,6 +8,10 @@ import CtaSection from '../components/PageSections/CtaSection';
 import StackedLayout from '../components/ApplicationShells/StackedLayout';
 import PageHeading from '../components/Headings/PageHeading';
 import DescriptionList from '../components/DataDisplay/DescriptionList';
+import FormLayout from '../components/Forms/FormLayout';
+import InputGroup from '../components/Forms/InputGroup';
+import SelectMenu from '../components/Forms/SelectMenu';
+import SignInAndRegistration from '../components/Forms/SignInAndRegistration';
 
 const Home: NextPage = () => {
   return (
@@ -32,6 +36,14 @@ const Home: NextPage = () => {
       <PageHeading />
       <br />
       <DescriptionList />
+      <br />
+      <FormLayout />
+      <br />
+      <InputGroup />
+      <br />
+      <SelectMenu />
+      <br />
+      <SignInAndRegistration />
     </>
   );
 }
